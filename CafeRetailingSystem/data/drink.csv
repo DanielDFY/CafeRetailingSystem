@@ -1,0 +1,8 @@
+cappuccino,cappuccino description,卡布奇诺,卡布奇诺描述,22,2,4,6,151.58,13.78,27.56,41.34,172.7,15.7,31.4,47.1,3,coffee
+espresso,espresso description,浓缩咖啡,浓缩咖啡描述,20,2,4,6,137.8,13.78,27.56,41.34,157.0,15.7,31.4,47.1,1,coffee
+greentea,greentea description,绿茶,绿茶描述,16,2,4,5,110.24,13.78,27.56,34.45,125.6,15.7,31.4,39.25,3,tea
+redtea,redtea description,红茶,红茶描述,18,2,4,5,124.02,13.78,27.56,34.45,141.3,15.7,31.4,39.25,1,tea
+pearlmilktea,pearlmilktea description,珍珠奶茶,珍珠奶茶描述,20,2,4,5,137.8,13.78,27.56,34.45,157.0,15.7,31.4,39.25,1,milkytea
+puddingmilktea,puddingmilktea description,布丁,奶茶布丁奶茶描述,22,2,4,5,151.58,13.78,27.56,34.45,172.7,15.7,31.4,39.25,1,milkytea
+orangejuice,orangejuice description,橙汁,橙汁描述,20,2,4,6,137.8,13.78,27.56,41.34,157.0,15.7,31.4,47.1,1,juice
+applejuice,applejuice description,苹果汁,苹果汁描述,18,2,4,6,124.02,13.78,27.56,41.34,141.3,15.7,31.4,47.1,1,juice

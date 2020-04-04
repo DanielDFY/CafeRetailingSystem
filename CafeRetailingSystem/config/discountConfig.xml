@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Components>
+    <ComponentList>
+        <ComponentName>ComboDiscountComponent</ComponentName>
+        <ComponentName>PricebreakDiscountComponent</ComponentName>
+        <ComponentName>TimeTriggerDiscountComponent</ComponentName>
+    </ComponentList>
+
+    <ComboDiscountComponent>
+        <strategy>
+            <className>DiscountPerSetStrategy</className>
+            <strategyName>default_espresso_large_second_20%_off</strategyName>
+            <targetName>espresso</targetName>
+            <targetSize>3</targetSize>
+            <discountPercent>0.2</discountPercent>
+            <setAmount>2</setAmount>
+        </strategy>
+
+        <strategy>
+            <className>OneFreePerSetStrategy</className>
+            <strategyName>default_redTea_and_greenTea_1_free_per_3</strategyName>
+            <targetList>
+                <targetName>redtea</targetName>
+                <targetName>greentea</targetName>
+            </targetList>
+            <targetSize>4</targetSize>
+            <setAmount>3</setAmount>
+        </strategy>
+
+        <strategy>
+            <className>SecondHalfPriceStrategy</className>
+            <strategyName>default_cappuccino_second_half</strategyName>
+            <targetName>cappuccino</targetName>
+            <targetSize>4</targetSize>
+        </strategy>
+
+        <strategy>
+            <className>ItemTriggerStrategy</className>
+            <strategyName>default_itemTrigger_strategy</strategyName>
+            <targetList>
+                <targetName>cappuccino</targetName>
+                <targetName>espresso</targetName>
+                <targetName>redtea</targetName>
+                <targetName>greentea</targetName>
+            </targetList>
+            <discountPercent>0.15</discountPercent>
+        </strategy>
+    </ComboDiscountComponent>
+
+    <PricebreakDiscountComponent>
+        <strategy>
+            <className>DefaultPricebreakStrategy</className>
+            <strategyName>default_pricebreak_strategy</strategyName>
+            <threshold>100</threshold>
+            <unit>30</unit>
+        </strategy>
+    </PricebreakDiscountComponent>
+
+    <TimeTriggerDiscountComponent>
+        <strategy>
+            <className>DefaultTimeTriggerStrategy</className>
+            <strategyName>default_timeTrigger_strategy</strategyName>
+            <dateStart>--11-11</dateStart>
+            <dateEnd>--11-11</dateEnd>
+            <discountPercent>0.5</discountPercent>
+        </strategy>
+    </TimeTriggerDiscountComponent>
+</Components>
+
